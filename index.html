@@ -14,7 +14,7 @@
 
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@1,9..144,600&family=Cormorant+Garamond:ital,wght@1,500;1,600&family=Sora:wght@500;700;800&family=Nunito+Sans:opsz,wght@6..12,400;6..12,600;6..12,800&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@1,9..144,600&family=Cormorant+Garamond:ital,wght@1,500;1,600;1,700&family=Sora:wght@500;700;800&family=Nunito+Sans:opsz,wght@6..12,400;6..12,600;6..12,800&display=swap" rel="stylesheet">
 
 <style>
 /* ---------- Tokens (swap these to re-theme) ---------- */
@@ -567,7 +567,7 @@ a.cs-val:hover { color: var(--leaf); }
 .hero h1, .hero p { text-shadow: 0 2px 20px rgba(0, 0, 0, .55); }
 .hero p { margin-inline: auto; max-width: 38ch; }
 .hero-cta { justify-content: center; align-items: center; }
-.hero::after { background: linear-gradient(180deg, rgba(4, 22, 14, .18) 0%, rgba(4, 22, 14, .22) 45%, rgba(4, 22, 14, .55) 80%, var(--band) 100%); }
+.hero::after { background: linear-gradient(180deg, rgba(4, 22, 14, .28) 0%, rgba(4, 22, 14, .38) 45%, rgba(4, 22, 14, .55) 80%, var(--band) 100%); }
 /* centred footer */
 footer .foot-grid { grid-template-columns: 1fr; justify-items: center; text-align: center; gap: 22px; }
 footer .foot-brand, footer .foot-contact, footer .foot-jump { grid-column: 1 / -1; justify-items: center; }
@@ -610,9 +610,11 @@ footer .foot-contact ul, footer .foot-jump ul { justify-content: center; justify
 .np-stack .np-word { justify-items: center; }
 .np-stack .np-word u { width: 100%; background: linear-gradient(90deg, transparent, #6fe277, transparent); }
 .np-stack .np-word i { padding-left: .28em; }
+.np-hero .np-word { gap: 8px; }
+.np-hero .np-word u { height: 2px; background: linear-gradient(90deg, transparent, #b9ff82, transparent); box-shadow: 0 1px 6px rgba(0, 0, 0, .6); }
 .np-hero .np-ico { width: clamp(150px, 46vw, 230px); height: auto; aspect-ratio: 310 / 340; filter: drop-shadow(0 0 1.5px rgba(0, 0, 0, .7)) drop-shadow(0 4px 14px rgba(0, 0, 0, .55)); }
-.np-hero .np-word span { font-size: clamp(2.3rem, 10vw, 3.4rem); }
-.np-hero .np-word i { font-size: clamp(.62rem, 2.4vw, .85rem); }
+.np-hero .np-word span { font-size: clamp(2.5rem, 11vw, 3.7rem); font-weight: 700; color: #fff; text-shadow: 0 0 2px rgba(0, 0, 0, .9), 0 2px 10px rgba(0, 0, 0, .85), 0 0 30px rgba(0, 0, 0, .65); }
+.np-hero .np-word i { font-size: clamp(.74rem, 2.9vw, .98rem); color: #b9ff82; letter-spacing: .24em; text-shadow: 0 0 2px rgba(0, 0, 0, .9), 0 2px 8px rgba(0, 0, 0, .85), 0 0 22px rgba(0, 0, 0, .6); }
 .brand-stack .np-ico { width: 96px; height: auto; aspect-ratio: 310 / 340; }
 .brand-stack .np-word span { font-size: 2.2rem; }
 .brand-stack .np-word i { font-size: .6rem; }
