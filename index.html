@@ -4,7 +4,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Natures Pillar | Landscape Design in Midrand</title>
-<meta name="description" content="Landscape design, gardens, paving and lawns in Midrand and surrounds. Free quotes, call or WhatsApp 082 808 4901.">
+<meta name="description" content="Landscape design in Midrand and surrounds. Free quotes, call or WhatsApp 082 808 4901.">
 <meta name="theme-color" content="#0b2819">
 <meta name="color-scheme" content="dark">
 <link rel="preload" as="image" imagesrcset="img/hero-1-480.webp 480w, img/hero-1-800.webp 800w, img/hero-1-1200.webp 1200w" imagesizes="(max-width: 767px) 200vw, 100vw" fetchpriority="high">
@@ -609,6 +609,12 @@ footer .foot-contact ul, footer .foot-jump ul { justify-content: center; justify
 .np-hero svg { width: 112px; height: 142px; }
 .brand-stack .np-tile svg { width: 130px; height: 165px; }
 @media (max-width: 380px) { .np-text { font-size: .92rem; } .np-ico { width: 28px; height: 32px; } }
+.services-grid.services-single { grid-template-columns: 1fr; }
+@media (min-width: 768px) {
+  .services-grid.services-single .svc { flex-direction: row; }
+  .services-grid.services-single .media { width: 50%; height: auto; min-height: 320px; }
+  .services-grid.services-single .svc-body { display: flex; flex-direction: column; justify-content: center; padding: 36px 40px; }
+}
 </style>
 <noscript><style>.img-fade { opacity: 1; }</style></noscript>
 </head>
@@ -652,7 +658,7 @@ footer .foot-contact ul, footer .foot-jump ul { justify-content: center; justify
     </div>
     <div class="wrap hero-in">
       <div class="np-tile np-hero" aria-hidden="true"><svg viewBox="0 0 346 440"><use href="#np-logo"/></svg></div>
-      <h1 id="hero-title"><span class="sr-only">Natures Pillar: landscape design, gardens and patios in Midrand</span><span class="words" aria-hidden="true"><span>Landscapes.</span><span>Gardens.</span><span>Patios.</span></span></h1>
+      <h1 id="hero-title"><span class="sr-only">Natures Pillar: landscape design in Midrand</span><span class="words" aria-hidden="true"><span>Design.</span><span>Landscapes.</span><span>Gardens.</span></span></h1>
       <p>Landscape design for homes and businesses in Midrand and surrounds. Call or WhatsApp for a free quote.</p>
       <div class="hero-cta">
         <a class="btn btn-light" href="#quote"><svg class="ico" aria-hidden="true"><use href="#i-whatsapp-logo"/></svg>Get a free quote</a>
@@ -684,66 +690,18 @@ footer .foot-contact ul, footer .foot-jump ul { justify-content: center; justify
   <!-- Services -->
   <section class="section" id="services">
     <div class="wrap">
-      <h2 class="reveal">Our services</h2>
-      <p class="lead reveal">Garden and landscape work designed with care and left tidy.</p>
+      <h2 class="reveal">What we do</h2>
+      <p class="lead reveal">Landscape design for gardens and outdoor spaces.</p>
 
-      <div class="services-grid">
+      <div class="services-grid services-single">
         <article class="svc reveal">
           <div class="media ph" style="background-image:url(data:image/webp;base64,UklGRnYAAABXRUJQVlA4IGoAAADQAwCdASoUAA8APu1iqU2ppaOiMAgBMB2JQBYdg860WvzDbwcNJgAA/uPLxQxQJcT6BtkkyWCWWe5F+SHAbAbFnvN6iX/lhF2J80CUAXtNJ1DML4HF4yvKOPzvsF6H+IpN5bHIAwkAGAAA)"><img class="img-fade" decoding="async" loading="lazy" src="img/design-800.webp" srcset="img/design-800.webp 800w, img/design-1200.webp 1200w" sizes="(max-width: 767px) 100vw, 50vw" width="1200" height="900" alt="Covered outdoor patio with white garden furniture surrounded by greenery"><span class="svc-badge" aria-hidden="true"><svg class="ico"><use href="#i-compass"/></svg></span></div>
           <div class="svc-body">
             <h3>Landscape design</h3>
-            <p>Garden layouts and planting plans designed around your space, style and budget.</p>
-            <ul class="chips">
-              <li><svg class="ico" aria-hidden="true"><use href="#i-check"/></svg>Garden design</li>
-              <li><svg class="ico" aria-hidden="true"><use href="#i-check"/></svg>Planting plans</li>
-              <li><svg class="ico" aria-hidden="true"><use href="#i-check"/></svg>Site layouts</li>
-            </ul>
+            <p>Landscape design for homes and businesses in Midrand and surrounds.</p>
             <a class="btn btn-solid svc-cta" href="#quote" data-service="Landscape design">Get a quote<svg class="ico" aria-hidden="true"><use href="#i-arrow-right"/></svg></a>
           </div>
         </article>
-
-        <article class="svc reveal">
-          <div class="media ph" style="background-image:url(data:image/webp;base64,UklGRngAAABXRUJQVlA4IGwAAADwAwCdASoUAA0APu1kqU2ppaOiMAgBMB2JQBOmUGYWiTLG++MQgG+AAPx/PQ2gyMnIh2RLpYcbwKX8racH2Ot8S/iddkPBCrMtATB8kupIQkiZZ8yE7rb8f34JggMMt7A06fynA1ESQWadwAA=)"><img class="img-fade" decoding="async" loading="lazy" src="img/planting-800.webp" srcset="img/planting-800.webp 800w, img/planting-1200.webp 1200w" sizes="(max-width: 767px) 100vw, 50vw" width="1200" height="800" alt="Garden with colourful flower beds under a blue sky"><span class="svc-badge" aria-hidden="true"><svg class="ico"><use href="#i-plant"/></svg></span></div>
-          <div class="svc-body">
-            <h3>Planting and garden beds</h3>
-            <p>Flower beds, borders and planting that suit our climate and look good all year.</p>
-            <ul class="chips">
-              <li><svg class="ico" aria-hidden="true"><use href="#i-check"/></svg>Flower beds</li>
-              <li><svg class="ico" aria-hidden="true"><use href="#i-check"/></svg>Borders</li>
-              <li><svg class="ico" aria-hidden="true"><use href="#i-check"/></svg>Planting</li>
-            </ul>
-            <a class="btn btn-solid svc-cta" href="#quote" data-service="Planting and garden beds">Get a quote<svg class="ico" aria-hidden="true"><use href="#i-arrow-right"/></svg></a>
-          </div>
-        </article>
-
-        <article class="svc reveal">
-          <div class="media ph" style="background-image:url(data:image/webp;base64,UklGRqYAAABXRUJQVlA4IJoAAADQBACdASoUAB4APu1qq1EppaOiqAqpMB2JYgC2yAsjn6wfn06DUjxXYfeycposgAD+cl5BWYOzYbBPF/FmjlekWZD5nvsWeGbsmL7fnq+NdExPLPGYenH7fWTs3L8TcwmJNxL/GJ8yuQB0IikJWmjsT0cGstJTdJsLhroxyBgqPOebtgYhVPHp6E41lMZQlq9V1qw1J2YBMIQA)"><img class="img-fade" decoding="async" loading="lazy" src="img/paving-800.webp" srcset="img/paving-800.webp 800w, img/paving-1200.webp 1200w" sizes="(max-width: 767px) 100vw, 50vw" width="1200" height="1800" alt="Curved paved pathway winding through a landscaped garden" style="object-position: 50% 40%"><span class="svc-badge" aria-hidden="true"><svg class="ico"><use href="#i-path"/></svg></span></div>
-          <div class="svc-body">
-            <h3>Paving and pathways</h3>
-            <p>Neat paving, paths and walkways that tie your garden together.</p>
-            <ul class="chips">
-              <li><svg class="ico" aria-hidden="true"><use href="#i-check"/></svg>Paths</li>
-              <li><svg class="ico" aria-hidden="true"><use href="#i-check"/></svg>Paving</li>
-              <li><svg class="ico" aria-hidden="true"><use href="#i-check"/></svg>Edging</li>
-            </ul>
-            <a class="btn btn-solid svc-cta" href="#quote" data-service="Paving and pathways">Get a quote<svg class="ico" aria-hidden="true"><use href="#i-arrow-right"/></svg></a>
-          </div>
-        </article>
-
-        <article class="svc reveal">
-          <div class="media ph" style="background-image:url(data:image/webp;base64,UklGRm4AAABXRUJQVlA4IGIAAABQAwCdASoUAA0APu1iqU2ppaOiMAgBMB2JQBYdg9gwCMWpmAD+7V/ABwd4S9x1i9f06NZbJoz+ropAkB98tWJUeU385ggILZADEKW6eIFDXAj06WYGyMWO7V5mgghb87jgAA==)"><img class="img-fade" decoding="async" loading="lazy" src="img/lawns-800.webp" srcset="img/lawns-800.webp 800w, img/lawns-1200.webp 1200w" sizes="(max-width: 767px) 100vw, 50vw" width="1200" height="798" alt="Garden sprinkler spraying water over a lawn"><span class="svc-badge" aria-hidden="true"><svg class="ico"><use href="#i-drop"/></svg></span></div>
-          <div class="svc-body">
-            <h3>Lawns and irrigation</h3>
-            <p>Fresh lawns and turf, with irrigation to keep your garden green.</p>
-            <ul class="chips">
-              <li><svg class="ico" aria-hidden="true"><use href="#i-check"/></svg>Lawns and turf</li>
-              <li><svg class="ico" aria-hidden="true"><use href="#i-check"/></svg>Irrigation</li>
-              <li><svg class="ico" aria-hidden="true"><use href="#i-check"/></svg>Levelling</li>
-            </ul>
-            <a class="btn btn-solid svc-cta" href="#quote" data-service="Lawns and irrigation">Get a quote<svg class="ico" aria-hidden="true"><use href="#i-arrow-right"/></svg></a>
-          </div>
-        </article>
-
       </div>
     </div>
   </section>
@@ -865,9 +823,6 @@ footer .foot-contact ul, footer .foot-jump ul { justify-content: center; justify
                 <select id="f-service" name="service" required>
                   <option value="">Choose a service</option>
                   <option>Landscape design</option>
-                  <option>Planting and garden beds</option>
-                  <option>Paving and pathways</option>
-                  <option>Lawns and irrigation</option>
                   <option>Something else</option>
                 </select>
                 <span class="err">Please choose a service.</span>
@@ -894,7 +849,7 @@ footer .foot-contact ul, footer .foot-jump ul { justify-content: center; justify
         <a class="brand brand-stack" href="#top">
       <span class="np-tile"><svg class="np-full" viewBox="0 0 346 440" aria-hidden="true"><use href="#np-logo"/></svg></span>
     </a>
-        <p class="foot-blurb" style="margin-top:10px;max-width:34ch;font-size:.95rem">Landscape design, gardens, paving and lawns in Midrand and surrounds.</p>
+        <p class="foot-blurb" style="margin-top:10px;max-width:34ch;font-size:.95rem">Landscape design in Midrand and surrounds.</p>
       </div>
       <div class="foot-contact">
         <h3>Contact</h3>
